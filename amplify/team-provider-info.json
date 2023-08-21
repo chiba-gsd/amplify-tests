@@ -1,0 +1,49 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-massa-dev-155154-authRole",
+      "UnauthRoleArn": "arn:aws:iam::918953913368:role/amplify-massa-dev-155154-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::918953913368:role/amplify-massa-dev-155154-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-massa-dev-155154-deployment",
+      "UnauthRoleName": "amplify-massa-dev-155154-unauthRole",
+      "StackName": "amplify-massa-dev-155154",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:918953913368:stack/amplify-massa-dev-155154/e6416410-34ee-11ee-b634-06a1c746dd97",
+      "AmplifyAppId": "d19bdha86p1t68"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1t2n4ebqb5330",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "amplifytest": {},
+        "massa8ded3a95": {}
+      },
+      "storage": {
+        "s345acda55": {},
+        "s3928f2fe4": {}
+      },
+      "api": {
+        "amplifytest": {}
+      },
+      "analytics": {
+        "amplifytest": {},
+        "Pinpoint": {
+          "Name": "amplifytest-dev",
+          "Id": "bf82f14a427c463e97ca7441ce1f54d0",
+          "Region": "ap-northeast-1"
+        }
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "amplifytest-dev",
+          "Id": "bf82f14a427c463e97ca7441ce1f54d0",
+          "Region": "ap-northeast-1"
+        }
+      }
+    }
+  }
+}
