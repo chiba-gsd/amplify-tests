@@ -1,6 +1,20 @@
 export type AmplifyDependentResourcesAttributes = {
+  "analytics": {
+    "amplifytest": {
+      "Id": "string",
+      "Region": "string",
+      "appName": "string"
+    }
+  },
+  "api": {
+    "amplifytest": {
+      "GraphQLAPIEndpointOutput": "string",
+      "GraphQLAPIIdOutput": "string",
+      "GraphQLAPIKeyOutput": "string"
+    }
+  },
   "auth": {
-    "massa8ded3a95": {
+    "amplifytest": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -11,7 +25,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "storage": {
-    "s3928f2fe4": {
+    "s345acda55": {
       "BucketName": "string",
       "Region": "string"
     }
